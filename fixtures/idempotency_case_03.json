@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "path": "/v1/orders/3",
+  "ttlHours": 24,
+  "atomicLock": true,
+  "fingerprint": true
+}
