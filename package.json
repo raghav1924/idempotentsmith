@@ -1,0 +1,34 @@
+{
+  "name": "idempotentsmith",
+  "version": "1.0.0",
+  "description": "Developer-First IETF Idempotency-Key Linter, Race Condition & Double-Charge Simulator, Payload Fingerprint Engine & Bento Grid Studio",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "idempotentsmith": "bin/idempotentsmith.js"
+  },
+  "scripts": {
+    "build": "node /Users/jatinsharma/.local/bin/lib/node_modules/typescript/bin/tsc",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "start": "node dist/cli.js studio",
+    "proxy": "node dist/cli.js proxy"
+  },
+  "keywords": [
+    "idempotency",
+    "idempotency-key",
+    "ietf",
+    "distributed-locks",
+    "race-condition",
+    "double-charge",
+    "payments",
+    "api-reliability",
+    "bento-grid",
+    "typescript"
+  ],
+  "author": "Jatin Sharma <raghavjatin245@gmail.com> (https://jatinsh.netlify.app/)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
