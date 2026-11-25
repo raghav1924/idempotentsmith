@@ -1,0 +1,3 @@
+workers,strategy,executions,double_charges
+60,unprotected,60,59
+60,atomic_lock,1,0
